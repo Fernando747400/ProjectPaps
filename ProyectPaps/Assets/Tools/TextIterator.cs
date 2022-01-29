@@ -10,7 +10,7 @@ public class TextIterator : MonoBehaviour
     private bool finished = false;
 
     [Header("Iteration speed")]
-    [SerializeField] private float textSpeed = 0.5f;
+    [SerializeField] private float textSpeed = 0.01f;
 
     public void Awake()
     {
