@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4672748307439627914}
   m_Layer: 5
   m_Name: SpeakerImageLeft
-  m_TagString: Untagged
+  m_TagString: Conversation
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 2500569825105115772}
   m_Layer: 5
   m_Name: SpeakerBorderLeft
-  m_TagString: Untagged
+  m_TagString: Conversation
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -163,7 +163,7 @@ GameObject:
   - component: {fileID: 5533923614457448150}
   m_Layer: 5
   m_Name: SpeakerBackgroundLeft
-  m_TagString: Untagged
+  m_TagString: Conversation
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
