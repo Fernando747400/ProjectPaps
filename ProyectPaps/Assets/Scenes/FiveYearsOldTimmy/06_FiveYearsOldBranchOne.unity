@@ -358,7 +358,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6971369697476148406, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7540253980964826908, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
       propertyPath: m_text
@@ -403,6 +403,14 @@ PrefabInstance:
     - target: {fileID: 1490272421750636640, guid: 10d51c2750baa114da385bf9c470c475, type: 3}
       propertyPath: m_Name
       value: SequenceManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 1490272421750636641, guid: 10d51c2750baa114da385bf9c470c475, type: 3}
+      propertyPath: branchA
+      value: 00_Bite_the_Dog
+      objectReference: {fileID: 0}
+    - target: {fileID: 1490272421750636641, guid: 10d51c2750baa114da385bf9c470c475, type: 3}
+      propertyPath: branchB
+      value: TimmyAlone
       objectReference: {fileID: 0}
     - target: {fileID: 1490272421750636641, guid: 10d51c2750baa114da385bf9c470c475, type: 3}
       propertyPath: sequence.Array.size
@@ -622,6 +630,14 @@ PrefabInstance:
       propertyPath: m_Text
       value: Faltar de todas formas.
       objectReference: {fileID: 0}
+    - target: {fileID: 5468730408380548218, guid: f76b1d822fa6a4444a821a7e39de97dd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1592028870}
+    - target: {fileID: 5468730408380548218, guid: f76b1d822fa6a4444a821a7e39de97dd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: BranchB
+      objectReference: {fileID: 0}
     - target: {fileID: 5468730408380548219, guid: f76b1d822fa6a4444a821a7e39de97dd, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -773,7 +789,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6971369697476148406, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7540253980964826908, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
       propertyPath: m_text
