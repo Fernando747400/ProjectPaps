@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -222,6 +222,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogCanvas 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7159571559806929598, guid: 4a450705b37005940b5b4232e4855160, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7728443733638043924, guid: 4a450705b37005940b5b4232e4855160, type: 3}
       propertyPath: m_text
       value: ...
@@ -256,6 +260,21 @@ PrefabInstance:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5106217422037179449, guid: 4a450705b37005940b5b4232e4855160, type: 3}
   m_PrefabInstance: {fileID: 4458600}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &208403565 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7159571559806929598, guid: 4a450705b37005940b5b4232e4855160, type: 3}
+  m_PrefabInstance: {fileID: 1965901006}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &228829216 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7159571559806929598, guid: 4a450705b37005940b5b4232e4855160, type: 3}
+  m_PrefabInstance: {fileID: 1046414063}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &360471726 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6971369697476148406, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
+  m_PrefabInstance: {fileID: 1214967165}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &506215627
 PrefabInstance:
@@ -356,6 +375,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7159571559806929598, guid: 4a450705b37005940b5b4232e4855160, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7728443733638043924, guid: 4a450705b37005940b5b4232e4855160, type: 3}
       propertyPath: m_text
       value: "Hola \xBFpuedo ayudarte en algo?"
@@ -372,6 +395,10 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -8456129716204965026, guid: ef4954fb860f0ac448885c43af666c4b, type: 2}
+    - target: {fileID: 7867447154386689651, guid: 4a450705b37005940b5b4232e4855160, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1114139381}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a450705b37005940b5b4232e4855160, type: 3}
 --- !u!224 &506215628 stripped
@@ -544,6 +571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SimpleDialog 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6971369697476148406, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7540253980964826908, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
       propertyPath: m_text
       value: Timmy estaba que se moria de la felicidad
@@ -566,6 +597,11 @@ PrefabInstance:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4987809267887843889, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
   m_PrefabInstance: {fileID: 697503046}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &797433881 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6971369697476148406, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
+  m_PrefabInstance: {fileID: 1413288424}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &862560718
 PrefabInstance:
@@ -780,6 +816,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogCanvas 3
       objectReference: {fileID: 0}
+    - target: {fileID: 7159571559806929598, guid: 4a450705b37005940b5b4232e4855160, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7728443733638043924, guid: 4a450705b37005940b5b4232e4855160, type: 3}
       propertyPath: m_text
       value: "Ya veo...\noh, pero que peque\xF1o tan adorable..."
@@ -913,7 +953,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sharedProfile: {fileID: 11400000, guid: 4b4485f8471b618478079a93ff387a19, type: 2}
-  isGlobal: 0
+  isGlobal: 1
   blendDistance: 0
   weight: 1
   priority: 0
@@ -932,7 +972,7 @@ MonoBehaviour:
   volumeTrigger: {fileID: 1114139382}
   volumeLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 0
   antialiasingMode: 0
@@ -1076,6 +1116,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SimpleDialog 4
       objectReference: {fileID: 0}
+    - target: {fileID: 6971369697476148406, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7540253980964826908, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
       propertyPath: m_text
       value: Su nombre es timmy, su madre le pueso el nombre...
@@ -1099,6 +1143,35 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4987809267887843889, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
   m_PrefabInstance: {fileID: 1188603960}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1200309071 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1490272421750636640, guid: 10d51c2750baa114da385bf9c470c475, type: 3}
+  m_PrefabInstance: {fileID: 1939964912}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1200309072 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1490272421750636641, guid: 10d51c2750baa114da385bf9c470c475, type: 3}
+  m_PrefabInstance: {fileID: 1939964912}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200309071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a36eea2d9df9df4fa7a240a0d573a43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1200309074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200309071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3397501b066748d4aaab8d72113a5c51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sequenceManager: {fileID: 1200309072}
 --- !u!1001 &1214967165
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1218,6 +1291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SimpleDialog 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6971369697476148406, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7540253980964826908, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
       propertyPath: m_text
       value: Continuara...
@@ -1249,6 +1326,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4987809267887843889, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
   m_PrefabInstance: {fileID: 1214967165}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1236167594 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6971369697476148406, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
+  m_PrefabInstance: {fileID: 1188603960}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1269051362
 GameObject:
   m_ObjectHideFlags: 0
@@ -1273,7 +1355,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1269051362}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -31.075016, z: 90}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 862560719}
@@ -1382,6 +1464,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1314998542 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7159571559806929598, guid: 4a450705b37005940b5b4232e4855160, type: 3}
+  m_PrefabInstance: {fileID: 4458600}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1326431631 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6971369697476148406, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
+  m_PrefabInstance: {fileID: 697503046}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1328648519 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7159571559806929598, guid: 4a450705b37005940b5b4232e4855160, type: 3}
+  m_PrefabInstance: {fileID: 506215627}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1364518050
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1480,6 +1577,10 @@ PrefabInstance:
     - target: {fileID: 7159571559806929598, guid: 4a450705b37005940b5b4232e4855160, type: 3}
       propertyPath: m_Name
       value: DialogCanvas 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7159571559806929598, guid: 4a450705b37005940b5b4232e4855160, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7728443733638043924, guid: 4a450705b37005940b5b4232e4855160, type: 3}
       propertyPath: m_text
@@ -1615,6 +1716,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SimpleDialog 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6971369697476148406, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7540253980964826908, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
       propertyPath: m_text
       value: Hola, solo stamos viendo para adoptar...
@@ -1637,6 +1742,16 @@ PrefabInstance:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4987809267887843889, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
   m_PrefabInstance: {fileID: 1413288424}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1489031690 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6971369697476148406, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
+  m_PrefabInstance: {fileID: 862560718}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1617077079 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7159571559806929598, guid: 4a450705b37005940b5b4232e4855160, type: 3}
+  m_PrefabInstance: {fileID: 1364518050}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1939964912
 PrefabInstance:
@@ -1661,6 +1776,50 @@ PrefabInstance:
       propertyPath: branchC
       value: 100_Credits
       objectReference: {fileID: 0}
+    - target: {fileID: 1490272421750636641, guid: 10d51c2750baa114da385bf9c470c475, type: 3}
+      propertyPath: sequence.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1490272421750636641, guid: 10d51c2750baa114da385bf9c470c475, type: 3}
+      propertyPath: sequence.Array.data[0]
+      value: 
+      objectReference: {fileID: 1489031690}
+    - target: {fileID: 1490272421750636641, guid: 10d51c2750baa114da385bf9c470c475, type: 3}
+      propertyPath: sequence.Array.data[1]
+      value: 
+      objectReference: {fileID: 1326431631}
+    - target: {fileID: 1490272421750636641, guid: 10d51c2750baa114da385bf9c470c475, type: 3}
+      propertyPath: sequence.Array.data[2]
+      value: 
+      objectReference: {fileID: 1328648519}
+    - target: {fileID: 1490272421750636641, guid: 10d51c2750baa114da385bf9c470c475, type: 3}
+      propertyPath: sequence.Array.data[3]
+      value: 
+      objectReference: {fileID: 797433881}
+    - target: {fileID: 1490272421750636641, guid: 10d51c2750baa114da385bf9c470c475, type: 3}
+      propertyPath: sequence.Array.data[4]
+      value: 
+      objectReference: {fileID: 1314998542}
+    - target: {fileID: 1490272421750636641, guid: 10d51c2750baa114da385bf9c470c475, type: 3}
+      propertyPath: sequence.Array.data[5]
+      value: 
+      objectReference: {fileID: 228829216}
+    - target: {fileID: 1490272421750636641, guid: 10d51c2750baa114da385bf9c470c475, type: 3}
+      propertyPath: sequence.Array.data[6]
+      value: 
+      objectReference: {fileID: 1617077079}
+    - target: {fileID: 1490272421750636641, guid: 10d51c2750baa114da385bf9c470c475, type: 3}
+      propertyPath: sequence.Array.data[7]
+      value: 
+      objectReference: {fileID: 1236167594}
+    - target: {fileID: 1490272421750636641, guid: 10d51c2750baa114da385bf9c470c475, type: 3}
+      propertyPath: sequence.Array.data[8]
+      value: 
+      objectReference: {fileID: 208403565}
+    - target: {fileID: 1490272421750636641, guid: 10d51c2750baa114da385bf9c470c475, type: 3}
+      propertyPath: sequence.Array.data[9]
+      value: 
+      objectReference: {fileID: 360471726}
     - target: {fileID: 1490272421750636642, guid: 10d51c2750baa114da385bf9c470c475, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1805,6 +1964,10 @@ PrefabInstance:
     - target: {fileID: 7159571559806929598, guid: 4a450705b37005940b5b4232e4855160, type: 3}
       propertyPath: m_Name
       value: DialogCanvas 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7159571559806929598, guid: 4a450705b37005940b5b4232e4855160, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7728443733638043924, guid: 4a450705b37005940b5b4232e4855160, type: 3}
       propertyPath: m_text
