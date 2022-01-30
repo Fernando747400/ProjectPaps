@@ -16,7 +16,7 @@ public class SequenceManager : MonoBehaviour
     public string sceneToLoad;
 
     [Header("End Game scene")]
-    [SerializeField] private string finalScene;
+    public string finalScene;
 
     private int sequenceIndex = 0;
 
