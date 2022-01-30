@@ -1,34 +1,46 @@
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class ThePowerOfTheMoney : MonoBehaviour
 {
-    public SequenceManager sequenceManager;
+    [Header("Money scriptable object")]
     public FloatVariable money;
 
-    public float threshHold;
+    [Header("Minimun money")]
+    public float MinMoney;
 
-    public float MaxMoney, MinMoney;
+    [Header("Maximum money")]
+    public float MaxMoney;
 
-    public string sceneToLoadBranchOne;
-    public string sceneToLoadBranchTwo;
-    public string sceneToLoadBranchThree;
+    [Header("Branch buttons")]
+    public Button minBranchButton;
+    public Button maxBranchButton;
+
+    [Header("Optional")]
+    public Button middleBranchButton;
 
 
     void Update()
     {
         if(money.Value < MinMoney)
         {
-            sequenceManager.branchA = sceneToLoadBranchOne;
+            minBranchButton.interactable = true;
+            middleBranchButton.interactable = false;
+            maxBranchButton.interactable = false;
         }
         //En caso de existir una tercera Ramificación de la historia
         if (money.Value >= MinMoney && money.Value < MaxMoney)
         {
-            sequenceManager.branchB = sceneToLoadBranchThree;
+            minBranchButton.interactable = true;
+            middleBranchButton.interactable = true;
+            maxBranchButton.interactable = false;
         }
         if (money.Value >= MaxMoney)
         {
-            sequenceManager.branchC = sceneToLoadBranchTwo;
+            minBranchButton.interactable = true;
+            middleBranchButton.interactable = true;
+            maxBranchButton.interactable = true;
         }
     }
 }
