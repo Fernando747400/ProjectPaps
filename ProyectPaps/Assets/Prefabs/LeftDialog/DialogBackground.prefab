@@ -158,8 +158,8 @@ MonoBehaviour:
     viverra lectus vitae laoreet. Etiam diam ipsum, pretium vitae laoreet quis, pulvinar
     quis nulla. Mauris at neque molestie, hendrerit sem sit amet, interdum ante.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f5cc73293d94c9848a661f6eb64ec801, type: 2}
-  m_sharedMaterial: {fileID: 1147304877240436056, guid: f5cc73293d94c9848a661f6eb64ec801, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b75dcf7eff1489e4ea2c9d4e80622e8f, type: 2}
+  m_sharedMaterial: {fileID: 4918118517025612830, guid: b75dcf7eff1489e4ea2c9d4e80622e8f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
