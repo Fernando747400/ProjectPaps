@@ -15,12 +15,66 @@ EditorBuildSettings:
     path: Assets/Scenes/02_Alleyway.unity
     guid: 3a7ceb18f3af4a943b05c9994e49df33
   - enabled: 1
-    path: Assets/Scenes/BaseScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/FiveYearsOldTimmy/05_DogsBad.unity
+    guid: f595d1217458fef49a51e2da23bd20af
   - enabled: 1
-    path: Assets/Scenes/ExampleScene.unity
-    guid: 5685df0735e89154f85c991112479ef1
+    path: Assets/Scenes/FiveYearsOldTimmy/05_DogsGood.unity
+    guid: 10896e969ec3a674d833df01dcbabab1
   - enabled: 1
-    path: Assets/Scenes/99_End_Game.unity
-    guid: 07efaee85ac296442a8988cb1224e745
+    path: Assets/Scenes/FiveYearsOldTimmy/05_FiveYearsOldBranchTwo.unity
+    guid: 78c7ec8a3ff6b404b9d9ee9ea69126b9
+  - enabled: 1
+    path: Assets/Scenes/FiveYearsOldTimmy/06_FiveYearsOldBranchOne.unity
+    guid: 6f20aa1e8a9cc5a4785d337d50424a23
+  - enabled: 1
+    path: Assets/Scenes/FiveYearsOldTimmy/TimmyAlone.unity
+    guid: 7052807c49818f14b9d335e9e10c2fd9
+  - enabled: 1
+    path: Assets/Scenes/Primaria/06_SchoolSelection.unity
+    guid: 874674eedca41b24eb01f5328e1af5f7
+  - enabled: 1
+    path: Assets/Scenes/Primaria/Ascenso.unity
+    guid: da355a0e3aaeb16418f0f8e045132d1e
+  - enabled: 1
+    path: Assets/Scenes/Primaria/EscuelaPrivada.unity
+    guid: a329ddc8f5f2cc34fa8558437a338a34
+  - enabled: 1
+    path: Assets/Scenes/03_Capitulo_2_Timmy_llega_a_casa.unity
+    guid: f695a5cc93ed74248942f04ba1fe610f
+  - enabled: 1
+    path: Assets/Scenes/04_Capitulo_2_Timmy_llega_a_casa_R2.unity
+    guid: 70ecfa845062b044f98c96fd8d8ea62c
+  - enabled: 1
+    path: Assets/Scenes/05_Final_Malo_La_Muerte_de_Timmy.unity
+    guid: 5b0982270a03a46448aea41c2740ba40
+  - enabled: 1
+    path: "Assets/Scenes/06_Capitulo_2_El_Primer_A\xF1o.unity"
+    guid: f913f9901ddff754fbbd22cf4523d7a2
+  - enabled: 1
+    path: Assets/Scenes/07_Final_3_ Timmy_El_Patito_Feo.unity
+    guid: 77342d727ca78aa48ba22376123f72bc
+  - enabled: 1
+    path: Assets/Scenes/08_Capitulo_3_Preocupaciones_de_Padre.unity
+    guid: 248e6f098075d1c44b1fd814fe24299e
+  - enabled: 1
+    path: Assets/Scenes/09_Ir_A_Trabajar.unity
+    guid: 9e90da81295f6d74a9dfe9626df9ff8a
+  - enabled: 1
+    path: Assets/Scenes/10_Capitulo_4_ABC.unity
+    guid: cafe50b2d034ab14ca59f2f31c4db37e
+  - enabled: 1
+    path: Assets/Scenes/15_Public_School.unity
+    guid: f6ff5a8e3871a5b43a983d54a3d8aebf
+  - enabled: 1
+    path: Assets/Scenes/22_Alleway_ending.unity
+    guid: c59692742e985cb4ba8e9a2a6ca90b9c
+  - enabled: 1
+    path: Assets/Scenes/100_Credits.unity
+    guid: 90b2f18526d0ff9429de00be4e627d3d
+  - enabled: 1
+    path: Assets/Scenes/11_Kinder_publico 1.unity
+    guid: 6a5b306149570af42b0e17e51bdf25ef
+  - enabled: 1
+    path: Assets/Scenes/12_Sin_Kinder.unity
+    guid: fe696c71f1898fc439433d6c6d20a163
   m_configObjects: {}
