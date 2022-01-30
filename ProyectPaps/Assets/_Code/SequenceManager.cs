@@ -13,10 +13,10 @@ public class SequenceManager : MonoBehaviour
     public GameObject continueButton;
 
     [Header("Name of scene to load")]
-    [SerializeField] private string sceneToLoad;
+    public string sceneToLoad;
 
     [Header("End Game scene")]
-    [SerializeField] private string finalScene;
+    public string finalScene;
 
     private int sequenceIndex = 0;
 
