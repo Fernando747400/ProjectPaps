@@ -12,11 +12,14 @@ public class SequenceManager : MonoBehaviour
     [SerializeField] private GameObject startButton;
     public GameObject continueButton;
 
-    [Header("Name of scene to load")]
-    public string sceneToLoad;
+    [Header("Branch A (continue) scene")]
+    public string branchA;
 
-    [Header("End Game scene")]
-    public string finalScene;
+    [Header("Branch B scene")]
+    public string branchB;
+
+    [Header("Branch C scene")]
+    public string branchC;
 
     private int sequenceIndex = 0;
 
@@ -49,13 +52,22 @@ public class SequenceManager : MonoBehaviour
         checkForDecision();
         } else
         {
-            SceneManager.LoadScene(sceneToLoad);
+            SceneManager.LoadScene(branchA);
         }
     }
 
-    public void endGame()
+    public void BranchA()
     {
-        SceneManager.LoadScene(sceneToLoad);
+        SceneManager.LoadScene(branchA);
+    }
+    public void BranchB()
+    {
+        SceneManager.LoadScene(branchB);
+    }
+
+    public void BranchC()
+    {
+        SceneManager.LoadScene(branchC);
     }
 
     private void checkForDecision()

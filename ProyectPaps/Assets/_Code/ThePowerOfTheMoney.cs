@@ -14,20 +14,21 @@ public class ThePowerOfTheMoney : MonoBehaviour
     public string sceneToLoadBranchTwo;
     public string sceneToLoadBranchThree;
 
+
     void Update()
     {
         if(money.Value < MinMoney)
         {
-            SceneManager.LoadScene(sceneToLoadBranchOne);
+            sequenceManager.branchA = sceneToLoadBranchOne;
         }
         //En caso de existir una tercera Ramificación de la historia
         if (money.Value >= MinMoney && money.Value < MaxMoney)
         {
-            SceneManager.LoadScene(sceneToLoadBranchThree);
+            sequenceManager.branchB = sceneToLoadBranchThree;
         }
         if (money.Value >= MaxMoney)
         {
-            SceneManager.LoadScene(sceneToLoadBranchTwo);
+            sequenceManager.branchC = sceneToLoadBranchTwo;
         }
     }
 }
