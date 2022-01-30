@@ -15,6 +15,9 @@ public class SequenceManager : MonoBehaviour
     [Header("Name of scene to load")]
     [SerializeField] private string sceneToLoad;
 
+    [Header("End Game scene")]
+    [SerializeField] private string finalScene;
+
     private int sequenceIndex = 0;
 
     void Start()
@@ -25,6 +28,7 @@ public class SequenceManager : MonoBehaviour
         }
         sequenceIndex = 0;
         continueButton.SetActive(false);
+        StartCoroutine(waitForLoad());
     }
 
     public void startSequence()
@@ -49,6 +53,11 @@ public class SequenceManager : MonoBehaviour
         }
     }
 
+    public void endGame()
+    {
+        SceneManager.LoadScene(sceneToLoad);
+    }
+
     private void checkForDecision()
     {
         if (sequence[sequenceIndex].gameObject.tag == "Decision")
@@ -58,5 +67,11 @@ public class SequenceManager : MonoBehaviour
         {
             continueButton.SetActive(true);
         }
+    }
+
+    private IEnumerator waitForLoad()
+    {
+        yield return new WaitForFixedUpdate();
+        startSequence();
     }
 }

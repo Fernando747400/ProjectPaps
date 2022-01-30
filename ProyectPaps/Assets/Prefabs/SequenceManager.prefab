@@ -181,6 +181,7 @@ MonoBehaviour:
   startButton: {fileID: 1490272421602390779}
   continueButton: {fileID: 1490272422005967156}
   sceneToLoad: SampleScene
+  finalScene: 99_End_Game
 --- !u!1 &1490272422005967156
 GameObject:
   m_ObjectHideFlags: 0
