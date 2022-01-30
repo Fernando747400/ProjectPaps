@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 9cd5ac1c493aa8443a17730ba1a3ca26
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Armoire 1.0 TRIAL
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4b2c23233a453ab4f8a06160709495d4, type: 3}
+  - {fileID: 12800000, guid: 817056914745a8c4ea4f197ae8a48663, type: 3}
+  - {fileID: 12800000, guid: 24099dcf33c632c4cb5e4ea79a5a697e, type: 3}
+  - {fileID: 12800000, guid: aafc603c1d301f7489df093c1455577c, type: 3}
+  - {fileID: 12800000, guid: a7732e45882b6254e9cc01098db93f23, type: 3}
+  - {fileID: 12800000, guid: a940c7df67a3561439fc873256964617, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
