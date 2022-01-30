@@ -402,6 +402,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5182329420380925535, guid: c1d6fccdef85fe0499a39886db3315e2, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: ef4954fb860f0ac448885c43af666c4b, type: 2}
+    - target: {fileID: 5182329420380925535, guid: c1d6fccdef85fe0499a39886db3315e2, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8456129716204965026, guid: ef4954fb860f0ac448885c43af666c4b, type: 2}
     - target: {fileID: 6915462658514815107, guid: c1d6fccdef85fe0499a39886db3315e2, type: 3}
       propertyPath: m_Name
       value: DialogBackground

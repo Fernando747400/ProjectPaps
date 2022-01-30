@@ -1503,8 +1503,8 @@ MonoBehaviour:
     scelerisque porttitor tortor. Donec et convallis risus. Nunc orci ligula, interdum
     vel diam ac, dapibus mattis arcu. In euismod pellentesque gravida.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b75dcf7eff1489e4ea2c9d4e80622e8f, type: 2}
-  m_sharedMaterial: {fileID: 4918118517025612830, guid: b75dcf7eff1489e4ea2c9d4e80622e8f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ef4954fb860f0ac448885c43af666c4b, type: 2}
+  m_sharedMaterial: {fileID: -8456129716204965026, guid: ef4954fb860f0ac448885c43af666c4b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
