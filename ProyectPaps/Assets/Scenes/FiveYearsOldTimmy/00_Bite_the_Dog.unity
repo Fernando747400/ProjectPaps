@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -452,7 +452,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6971369697476148406, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7540253980964826908, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
       propertyPath: m_text
@@ -607,7 +607,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6971369697476148406, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7540253980964826908, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
       propertyPath: m_text
@@ -855,7 +855,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6971369697476148406, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7540253980964826908, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
       propertyPath: m_text
@@ -1004,7 +1004,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6971369697476148406, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7540253980964826908, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
       propertyPath: m_text
@@ -1152,7 +1152,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6971369697476148406, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7540253980964826908, guid: 11a0d35beecfa464286cdfbec38dcebe, type: 3}
       propertyPath: m_text
@@ -1352,21 +1352,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: DecisionDialog
       objectReference: {fileID: 0}
+    - target: {fileID: 2207547231463382067, guid: 93816e4e281370243b2eda40d100607e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2207547231463382068, guid: 93816e4e281370243b2eda40d100607e, type: 3}
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2207547231463382068, guid: 93816e4e281370243b2eda40d100607e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.350083
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2207547231463382068, guid: 93816e4e281370243b2eda40d100607e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -21.272423
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2207547231463382068, guid: 93816e4e281370243b2eda40d100607e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -113.300224
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2207547231463382068, guid: 93816e4e281370243b2eda40d100607e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1374,15 +1378,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2207547231463382068, guid: 93816e4e281370243b2eda40d100607e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2207547231463382068, guid: 93816e4e281370243b2eda40d100607e, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2207547231463382068, guid: 93816e4e281370243b2eda40d100607e, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2207547231463382068, guid: 93816e4e281370243b2eda40d100607e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1402,12 +1406,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3692625772895632278, guid: 93816e4e281370243b2eda40d100607e, type: 3}
       propertyPath: m_text
-      value: "\xBFDejaras que el peque\xF1o se acerque a esa bestia? o  jalaras a
+      value: "\xBFDejaras que el peque\xF1o se acerque a ese perro? o  jalaras a
         tu hijo para que no toque al perro"
       objectReference: {fileID: 0}
     - target: {fileID: 3692625772895632278, guid: 93816e4e281370243b2eda40d100607e, type: 3}
       propertyPath: m_fontSize
-      value: 57.75
+      value: 58.3
       objectReference: {fileID: 0}
     - target: {fileID: 3841830737126096113, guid: 93816e4e281370243b2eda40d100607e, type: 3}
       propertyPath: m_Camera
